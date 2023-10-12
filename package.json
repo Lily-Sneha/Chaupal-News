@@ -1,0 +1,22 @@
+{
+  "name": "tailwind-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lily-Sneha/tailwind-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lily-Sneha/tailwind-practice/issues"
+  },
+  "homepage": "https://github.com/Lily-Sneha/tailwind-practice#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}

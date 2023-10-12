@@ -1,0 +1,8 @@
+# Ignore generated CSS files
+
+
+# Ignore Node.js modules
+/node_modules/
+
+# Ignore sensitive configuration files
+.env.local
