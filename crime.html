@@ -39,36 +39,6 @@
                 <!-- Navbar link  -->
                 <nav :class="{'flex': open, 'hidden': !open}"
                     class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-centre md:flex-row">
-                    <!-- <a class="px-4 py-2 mt-2 text-base font-semibold text-black rounded-lg  md:mt-0 hover:text-sky-600 hover:bg-gray-50 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                    href="index.html">Home</a> -->
-                    <!-- <div @click.away="open = false" class="relative" x-data="{ open: false }">
-                        <button @click="open = !open" aria-label="navbar-links"
-                            class="text-black flex flex-row items-center w-full px-4 py-2 mt-2 text-sm  text-left bg-transparent rounded hover:bg-gray-50 hover:text-black  md:w-auto md:inline md:mt-0    focus:outline-none focus:shadow-outline">
-                            <span>ABOUT US </span>
-                            <svg fill="currentColor" viewBox="0 0 20 20"
-                                :class="{'rotate-180': open, 'rotate-0': !open}"
-                                class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
-                                <path fill-rule="evenodd"
-                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </button>
-                        <div x-show="open" x-transition:enter="transition ease-out duration-100"
-                            x-transition:enter-start="transform opacity-0 scale-95"
-                            x-transition:enter-end="transform opacity-100 scale-100"
-                            x-transition:leave="transition ease-in duration-75"
-                            x-transition:leave-start="transform opacity-100 scale-100"
-                            x-transition:leave-end="transform opacity-0 scale-95"
-                            class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-36">
-                            <div class="px-2 py-2 bg-white rounded-md shadow  text-black">
-                                <a class="block px-4 py-2 mt-2 text-sm  bg-transparent rounded hover:bg-gray-50 hover:bg-gray-50  hover:text-black   md:mt-0 focus:outline-none focus:shadow-outline"
-                                    href="our-story.html">OUR WORK</a>
-                                <a class="block px-4 py-2 mt-2 text-sm  bg-transparent rounded hover:bg-gray-50  hover:text-black   md:mt-0 focus:outline-none focus:shadow-outline"
-                                    href="team.html">STUDENTS SPACE</a>
-                            </div>
-                        </div>
-                    </div> -->
-
 
                     <!-- **** -->
                     <a class="text-black  px-4 py-2 mt-2 text-sm  bg-transparent rounded  hover:bg-gray-50  hover:text-black   md:mt-0 focus:outline-none focus:shadow-outline"
@@ -83,11 +53,10 @@
                         href="">अपराध</a>
 
                     <a class="text-black  px-4 py-2 mt-2 text-sm  bg-transparent rounded  hover:bg-gray-50  hover:text-black   md:mt-0 focus:outline-none focus:shadow-outline"
-                        href="./workWithUs.html">WORK WITH US</a>
+                        href="./workWithUs.html">ABOUT US</a>
                     <a class="text-black  px-4 py-2 mt-2 text-sm  bg-transparent rounded  hover:bg-gray-50  hover:text-black   md:mt-0 focus:outline-none focus:shadow-outline"
                         href="./contactUs.html">CONTACT US</a>
-                    <!-- <a class="text-white  px-4 py-2 mt-2 text-sm header-color rounded   hover:bg-red-800   md:mt-0 focus:outline-none focus:shadow-outline"
-                        href="donate.html">DONATE</a> -->
+
 
                 </nav>
                 <!-- Navbar link End  -->
@@ -97,60 +66,82 @@
     <!-- contact end -->
 
     <!-- cover -->
-    <div class="lg:text-4xl font-bold capitalize text-lg pb-4 sm:text-2xl">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-                <h2 class="text-2xl font-bold text-gray-900">Collections</h2>
+    <div class="container mx-auto lg:px-6 px-6 lg:py-12 py-4 text-gray-800 lg:text-left mt-4 lg:mt-0 flex
+        justify-between">
+        <div class="mt-12 lg:mt-0 ">
+            <h3 class="lg:text-4xl font-bold capitalize text-lg pb-4 sm:text-2xl">
+                रेप के बढ़ते अपराध: समाज में चिंताजनक वृद्धि*
+            </h3>
 
-                <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
-                    <div class="group relative">
-                        <div
-                            class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                            <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg"
-                                alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug."
-                                class="h-full w-full object-cover object-center">
-                        </div>
-                        <h3 class="mt-6 text-sm text-gray-500">
-                            <a href="#">
-                                <span class="absolute inset-0"></span>
-                                Desk and Office
-                            </a>
-                        </h3>
-                        <p class="text-base font-semibold text-gray-900">Work from home accessories</p>
-                    </div>
-                    <div class="group relative">
-                        <div
-                            class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                            <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg"
-                                alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant."
-                                class="h-full w-full object-cover object-center">
-                        </div>
-                        <h3 class="mt-6 text-sm text-gray-500">
-                            <a href="#">
-                                <span class="absolute inset-0"></span>
-                                Self-Improvement
-                            </a>
-                        </h3>
-                        <p class="text-base font-semibold text-gray-900">Journals and note-taking</p>
-                    </div>
-                    <div class="group relative">
-                        <div
-                            class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                            <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg"
-                                alt="Collection of four insulated travel bottles on wooden shelf."
-                                class="h-full w-full object-cover object-center">
-                        </div>
-                        <h3 class="mt-6 text-sm text-gray-500">
-                            <a href="#">
-                                <span class="absolute inset-0"></span>
-                                Travel
-                            </a>
-                        </h3>
-                        <p class="text-base font-semibold text-gray-900">Daily commute essentials</p>
-                    </div>
-                </div>
+            <div>
+                <img src="./image/brutal-sexual-assaults-after-2012.jpg" alt="">
             </div>
+
+            <p class="py-2">
+                <b>नई दिल्ली: </b> अंतिम कुछ सालों में भारत में रेप के मामले में चिंताजनक वृद्धि देखने को मिल रही
+                है। यह अपराध समाज के लिए गंभीर खतरा है जिसने समाज में गहरे सवाल उठाए हैं। यह समस्या सिर्फ निर्भीकरण के
+                स्तर पर ही सीमित नहीं है, बल्कि इसने समाज के अंदर बदलाव की मांग भी उठाई है और इसे रोकने के लिए आवश्यक
+                कदम उठाए जाने की आवश्यकता है।
+
+            <h6 class="font-bold capitalize pt-2">
+                बढ़ते आंकड़े:
+            </h6>
+            <p>
+                रेप के मामलों में बढ़ोतरी को लेकर ताजगी रहती है, जहां तकनीकी उपयोगकर्ताओं और स्थानीय पुलिस अधिक अपराधों
+                की रिपोर्ट कर रहे हैं। इस गंभीर समस्या के सामने लाने के लिए सरकारों को सक्रिय रूप से काम करने की
+                आवश्यकता है।
+            </p>
+        
+            <h6 class="font-bold capitalize pt-2">
+                विशेषज्ञों का मानना:
+            </h6>
+            <p>रेप के मामलों में वृद्धि को लेकर विशेषज्ञों का कहना है कि सोशल मीडिया और इंटरनेट के बढ़ते प्रयोग से भी
+                इसकी वृद्धि में योगदान है। नेताओं को इस विशेष मुद्दे पर गंभीरता से ध्यान देने की आवश्यकता है।
+
+            </p>
+        
+            <h6 class="font-bold capitalize pt-2">
+                सामाजिक मानसिकता का परिवर्तन:
+            </h6>
+            <p>रेप के मामलों की बढ़ती संख्या ने समाज में सामाजिक मानसिकता के प्रति आलोचनात्मक नजरिये का
+                परिवर्तन किया है। अब समाज ने इस समस्या को सामने से देखना और इस पर आमंत्रित कदम उठाने की आवश्यकता महसूस
+                की है।
+
+            </p>
+        
+            <h6 class="font-bold capitalize pt-2">
+                शिक्षा और सशक्तिकरण की जरूरत:
+            </h6>
+            <p>रेप के मामलों को रोकने के लिए, शिक्षा और समाज के सभी सेगमेंट्स को मिलकर काम करने की जरूरत है। सशक्तिकरण
+                और शिक्षा के माध्यम से, समाज में सामाजिक और मानवाधिकारों के प्रति जागरूकता और समर्थन बढ़ाया जा सकता है।
+
+
+            </p>
+        
+            <h6 class="font-bold capitalize pt-2">
+                समाधान की आवश्यकता:
+            </h6>
+            <p>रेप के मामलों में बढ़ोतरी को रोकने के लिए समाज को संज्ञान में लेकर कड़ी कानूनी कार्रवाई की आवश्यकता है,
+                साथ ही महिला सुरक्षा को मजबूत करने के लिए समर्थन और संरक्षण की व्यवस्था भी करनी चाहिए।
+            </p>
+        
+            <h6 class="font-bold capitalize pt-2">
+                कड़ी कानूनी कार्रवाई:
+            </h6>
+            <p>समाज के भरोसे को बढ़ाने के लिए, कड़ी कानूनी कार्रवाई भी अत्यंत आवश्यक है। रेप के आरोपियों के खिलाफ त्वरित
+                और सख्त सजा का होना चाहिए ताकि औरतों को सुरक्षित महसूस करने में मदद मिल सके।
+            </p>
+
+            <p class="pt-2">
+                रेप के मामलों में बढ़ोतरी समाज के लिए एक बड़ा संकेत है, जो खासकर महिलाओं और बच्चों की सुरक्षा के संबंध
+                में सख्त उलझन को दर्शाता है। रेप के खिलाफ समाज की एकता, सशक्तिकरण और शिक्षा की आवश्यकता है। इस समस्या को
+                निर्मूलन करने के लिए समाज के सभी वर्गों को मिलकर काम करने की जरूरत है ताकि हम एक समर्थ और सुरक्षित समाज
+                का निर्माण कर सकें।
+            </p>
         </div>
+    </div>
+    </div>
+    </div>
     </div>
 
     <footer>

@@ -39,37 +39,6 @@
                 <!-- Navbar link  -->
                 <nav :class="{'flex': open, 'hidden': !open}"
                     class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex md:justify-centre md:flex-row">
-                    <!-- <a class="px-4 py-2 mt-2 text-base font-semibold text-black rounded-lg  md:mt-0 hover:text-sky-600 hover:bg-gray-50 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-                    href="index.html">Home</a> -->
-                    <!-- <div @click.away="open = false" class="relative" x-data="{ open: false }">
-                        <button @click="open = !open" aria-label="navbar-links"
-                            class="text-black flex flex-row items-center w-full px-4 py-2 mt-2 text-sm  text-left bg-transparent rounded hover:bg-gray-50 hover:text-black  md:w-auto md:inline md:mt-0    focus:outline-none focus:shadow-outline">
-                            <span>ABOUT US </span>
-                            <svg fill="currentColor" viewBox="0 0 20 20"
-                                :class="{'rotate-180': open, 'rotate-0': !open}"
-                                class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1">
-                                <path fill-rule="evenodd"
-                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </button>
-                        <div x-show="open" x-transition:enter="transition ease-out duration-100"
-                            x-transition:enter-start="transform opacity-0 scale-95"
-                            x-transition:enter-end="transform opacity-100 scale-100"
-                            x-transition:leave="transition ease-in duration-75"
-                            x-transition:leave-start="transform opacity-100 scale-100"
-                            x-transition:leave-end="transform opacity-0 scale-95"
-                            class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-36">
-                            <div class="px-2 py-2 bg-white rounded-md shadow  text-black">
-                                <a class="block px-4 py-2 mt-2 text-sm  bg-transparent rounded hover:bg-gray-50 hover:bg-gray-50  hover:text-black   md:mt-0 focus:outline-none focus:shadow-outline"
-                                    href="our-story.html">OUR WORK</a>
-                                <a class="block px-4 py-2 mt-2 text-sm  bg-transparent rounded hover:bg-gray-50  hover:text-black   md:mt-0 focus:outline-none focus:shadow-outline"
-                                    href="team.html">STUDENTS SPACE</a>
-                            </div>
-                        </div>
-                    </div> -->
-
-
                     <!-- **** -->
                     <a class="text-black  px-4 py-2 mt-2 text-sm  bg-transparent rounded  hover:bg-gray-50  hover:text-black   md:mt-0 focus:outline-none focus:shadow-outline"
                         href="./index.html">होम</a>
@@ -83,11 +52,9 @@
                         href="./crime.html">अपराध</a>
 
                     <a class="text-black  px-4 py-2 mt-2 text-sm  bg-transparent rounded  hover:bg-gray-50  hover:text-black   md:mt-0 focus:outline-none focus:shadow-outline"
-                        href="./workWithUs.html">WORK WITH US</a>
+                        href="./workWithUs.html">ABOUT US</a>
                     <a class="text-black  px-4 py-2 mt-2 text-sm  bg-transparent rounded  hover:bg-gray-50  hover:text-black   md:mt-0 focus:outline-none focus:shadow-outline"
                         href="./contactUs.html">CONTACT US</a>
-                    <!-- <a class="text-white  px-4 py-2 mt-2 text-sm header-color rounded   hover:bg-red-800   md:mt-0 focus:outline-none focus:shadow-outline"
-                        href="donate.html">DONATE</a> -->
 
                 </nav>
                 <!-- Navbar link End  -->
@@ -97,60 +64,76 @@
     <!-- contact end -->
 
     <!-- cover -->
-    <div class="bg-gray-100">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div class="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-                <h2 class="text-2xl font-bold text-gray-900">Collections</h2>
+    <div
+        class="container mx-auto lg:px-6 px-6 lg:py-12 py-4 text-gray-800  lg:text-left  mt-4 lg:mt-0 flex justify-between">
+        <div class="mt-12 lg:mt-0 ">
+            <h3 class="lg:text-4xl font-bold capitalize text-lg pb-4 sm:text-2xl">
+                छत्तीसगढ़ राज्य: विकास के साथ चुनौतियों का सामना
+            </h3>
 
-                <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
-                    <div class="group relative">
-                        <div
-                            class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                            <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-01.jpg"
-                                alt="Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug."
-                                class="h-full w-full object-cover object-center">
-                        </div>
-                        <h3 class="mt-6 text-sm text-gray-500">
-                            <a href="#">
-                                <span class="absolute inset-0"></span>
-                                Desk and Office
-                            </a>
-                        </h3>
-                        <p class="text-base font-semibold text-gray-900">Work from home accessories</p>
-                    </div>
-                    <div class="group relative">
-                        <div
-                            class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                            <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg"
-                                alt="Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant."
-                                class="h-full w-full object-cover object-center">
-                        </div>
-                        <h3 class="mt-6 text-sm text-gray-500">
-                            <a href="#">
-                                <span class="absolute inset-0"></span>
-                                Self-Improvement
-                            </a>
-                        </h3>
-                        <p class="text-base font-semibold text-gray-900">Journals and note-taking</p>
-                    </div>
-                    <div class="group relative">
-                        <div
-                            class="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                            <img src="https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg"
-                                alt="Collection of four insulated travel bottles on wooden shelf."
-                                class="h-full w-full object-cover object-center">
-                        </div>
-                        <h3 class="mt-6 text-sm text-gray-500">
-                            <a href="#">
-                                <span class="absolute inset-0"></span>
-                                Travel
-                            </a>
-                        </h3>
-                        <p class="text-base font-semibold text-gray-900">Daily commute essentials</p>
-                    </div>
-                </div>
+            <div>
+                <img src="./image/chhattisgarh-govt-145004.png" alt="">
             </div>
+
+            <p class="py-2">
+                <b>रायपुर:</b> छत्तीसगढ़ राज्य के विकास में गति बढ़ाने के साथ ही, कई मुद्दों का सामना भी किया जा रहा है
+                जो राज्य के स्थिति पर प्रभाव डाल रहे हैं। यहां पर कुछ महत्वपूर्ण मुद्दे हैं जो वर्तमान में राज्य में
+                उससे निपटने की जरूरत हैं:
+                </span>
+            <h6 class="font-bold capitalize py-2">
+                नक्सलियत का मुद्दा:
+            </h6>
+            <p>
+                छत्तीसगढ़ राज्य में नक्सलियत का मुद्दा एक बड़ी चुनौती है, जिससे सुरक्षा बलों को निपटना पड़ता है। सरकार
+                ने विकास और सुरक्षा को मजबूत करने के लिए कई योजनाएं और कदम उठाए हैं, लेकिन अभी भी काफी काम बाकी है।
+            </p>
+            </span>
+            <h6 class="font-bold capitalize py-2">
+                कृषि क्षेत्र में सुधार:
+            </h6>
+            <p>कृषि छत्तीसगढ़ के अर्थ और राजनीतिक स्थिति का मुख्य अंग है, लेकिन किसानों को अधिक समर्थन और तकनीकी सहायता
+                की आवश्यकता है। सरकार ने कृषि उत्पादन में सुधार के लिए योजनाएं शुरू की हैं, लेकिन विस्तारपूर्वक उपाय की
+                जरूरत है।
+            </p>
+            </span>
+            <h6 class="font-bold capitalize py-2">
+                शिक्षा के स्तर में गुणवत्ता:
+            </h6>
+            <p class="py-2">शिक्षा के क्षेत्र में भी गुणवत्ता के मामले में छत्तीसगढ़ को काफी कठिनाईयों का सामना करना पड़
+                रहा है। सरकार को शिक्षा के क्षेत्र में नए योजनाओं और नीतियों को लागू करने के लिए प्रयासरत होने की
+                आवश्यकता है।
+
+            </p>
+            </span>
+            <h6 class="font-bold capitalize py-2">
+                जल संकट:
+            </h6>
+            <p>जल संकट भी राज्य का एक महत्वपूर्ण मुद्दा है, जिसमें सामाजिक और आर्थिक प्रभाव दिखाई दे रहे हैं। सरकार को
+                नए जल संचारन और प्रबंधन के प्रोत्साहन के लिए उत्साहित होने की आवश्यकता है।
+            </p>
+            </span>
+            <h6 class="font-bold capitalize py-2">
+                स्वास्थ्य सेवाओं की पहुंच:
+            </h6>
+            <p>छत्तीसगढ़ राज्य में स्वास्थ्य सेवाओं की पहुंच एक अन्य मुद्दा है, जहां बार-बार बच्चों और महिलाओं की मौत
+                होने की खबरें सामने आ रही हैं। सरकार को स्वास्थ्य सेवाओं की पहुंच बढ़ाने के लिए कदम उठाने की जरूरत है"
+            </p>
+            </span>
+            <h6 class="font-bold capitalize py-2">
+                समाजिक सुरक्षा की व्यवस्था:
+            </h6>
+            <p>राज्य सरकार ने गरीबों और वंचित वर्गों के लिए समाजिक सुरक्षा की व्यवस्था में सुधार की आवशकता है । आर्थिक
+                सहायता, राशन कार्ड, और अन्य सुविधाओं की पहुंच को बढ़ावा दिया जाना चाहिए ताकि सबको समान अधिकार मिल सके।।
+            </p>
+
+            <p class="py-2">
+                ये मुद्दे छत्तीसगढ़ राज्य के विकास के मार्ग में अवरुद्ध बने हुए हैं। सरकार को इन मुद्दों को गंभीरता से
+                लेना और सकारात्मक कदम उठाने की आवश्यकता है ताकि राज्य की सामाजिक और आर्थिक स्थिति में सुधार हो सके।
+            </p>
         </div>
+    </div>
+    </div>
+    </div>
     </div>
 
     <footer>
